@@ -1,0 +1,12 @@
+
+:root {
+    --primary-dark: #ffed54;
+    --primary-mid: #fff9c9;
+    --primary-light: #fcf8d7;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+

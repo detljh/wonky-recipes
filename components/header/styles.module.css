@@ -1,0 +1,9 @@
+.Header {
+    display: flex;
+    justify-content: center;
+    background-color: var(--primary-mid);
+}
+
+.HeaderText {
+    font-weight: bold;
+}
