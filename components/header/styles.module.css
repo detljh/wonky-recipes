@@ -1,9 +1,15 @@
 .Header {
     display: flex;
     justify-content: center;
-    background-color: var(--primary-mid);
+    padding-top: 25px;
+    height: 50px;
+    background-color: var(--primary-light);
 }
 
-.HeaderText {
+.Title {
     font-weight: bold;
+    font-size: 18px;
+    position: absolute;
+    left: 100px;
+    z-index: 100;
 }

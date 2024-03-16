@@ -1,12 +1,14 @@
 
 :root {
     --primary-dark: #ffed54;
-    --primary-mid: #fff9c9;
-    --primary-light: #fcf8d7;
+    --primary-mid: #fffad4;
+    --primary-light: #fffce8;
+
+    width: 100%;
+    height: 100%;
 }
 
-html, body {
+html, body, ul, li {
     padding: 0;
     margin: 0;
 }
-

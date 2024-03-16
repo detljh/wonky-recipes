@@ -1,0 +1,79 @@
+.Menu {
+    display: block;
+    position: absolute;
+    z-index: 100;
+    padding-top: 25px;
+    padding-left: 50px;
+}
+
+.Checkbox {
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 32px;
+    cursor:pointer;
+    z-index: 101;
+    opacity: 0;
+    margin: -6px 0 0 -5px;
+}
+
+.Line {
+    display: block;
+    width: 31px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    background: black;
+    border-radius: 3px;
+    z-index: 100;
+}
+
+#Line1 {
+    
+}
+
+#Line2 {
+    
+}
+
+#Line3 {
+    
+}
+
+.MenuBar {
+    position: absolute;
+    width: 270px;
+    height: 100vh;
+    background-color: var(--primary-mid);
+    margin: -60px 0 0 -50px;
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+.List {
+    padding: 50px;
+    padding-top: 125px;
+    list-style-type: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.Checkbox:checked ~ .MenuBar {
+    transform: none;
+}
+
+.List li {
+    padding-bottom: 15px;
+}
+
+.List a, .List a:hover, .List a:visited, .List a:active {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+.List a:hover {
+    color: var(--primary-dark);
+}

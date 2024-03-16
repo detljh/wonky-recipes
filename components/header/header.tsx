@@ -3,9 +3,11 @@ import styles from "./styles.module.css";
 
 export default function Header() {
     return (
-        <div>
-            <div className={styles.Header}>
-                <p className={styles.HeaderText}>Wonky Recipes</p>
+        <div className={styles.Header}>
+            <div className={styles.Title}>Wonky Recipes</div>
+            <div>
+                <input type="text" />
+                <button>Search</button>
             </div>
         </div>
     )
