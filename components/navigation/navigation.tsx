@@ -17,7 +17,6 @@ export default function Navigation() {
                     <a href="/"><li>Home</li></a>
                     <a href="/create-recipe"><li>Create a Recipe</li></a>
                     <a href="/my-recipes"><li>My Recipes</li></a>
-                    <a href="/favourites"><li>Favourites</li></a>
                 </ul>
             </div>
         </div>

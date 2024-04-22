@@ -2,3 +2,31 @@
     display: flex;
     justify-content: center;
 }
+
+.RecipeContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 25%);
+    grid-gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.RecipeCard {
+    border: 3px solid;
+    border-radius: 10px;
+    border-color: var(--primary-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.RecipeCard {
+    text-decoration: none;
+    color: inherit;
+    transition: background-color 0.3s ease;
+}
+
+.RecipeCard:hover {
+    background-color: var(--primary-dark);
+}

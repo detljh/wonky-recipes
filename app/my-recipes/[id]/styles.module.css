@@ -1,0 +1,39 @@
+.Header {
+    display: flex;
+    justify-content: center;
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 10px auto 10px auto;
+}
+
+
+.ButtonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.RecipeContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 500px;
+    margin: auto auto 10px auto;
+    background-color: var(--primary-mid);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.RecipeCard {
+    border: 3px solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}

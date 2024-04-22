@@ -1,0 +1,6 @@
+.FormArray {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5px;
+}

@@ -2,3 +2,16 @@
     display: flex;
     justify-content: center;
 }
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+}
+
+.Button {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
